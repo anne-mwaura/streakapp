@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>STREAK APP</title>
+    <style>
+        .habit-list { margin-top: 50px; }
+        .habit { margin-bottom: 20px; }
+    </style>
+</head>
+<body>
+    <div>
+        <label for="name-of-the-habit">Habit:</label>
+        <input type="text" id="name-of-the-habit" required>
+        <label for="date-of-the-habit">Date Stopped:</label>
+        <input type="date" id="date-of-the-habit" required>
+        <button id="habit-button" onclick="handleButtonClick()">Add Habit</button>
+    </div>
+    <div class="habit-list" id="habit-list">
+        <h2>Tracked Habits:</h2>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>
